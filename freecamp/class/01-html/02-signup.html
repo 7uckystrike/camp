@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+</head>
+<body>
+    <h2>회원가입</h2>
+    <div> 
+        <input type="email" placeholder="이메일을 입력해 주세요." />
+        <br/><br/>
+        <input type="text" placeholder="이름을 입력해 주세요." />
+        <br/><br/>
+        <input type="password" placeholder="비밀번호를 입력해 주세요." />
+        <br/><br/>
+        <input type="password" placeholder="비밀번호를 다시 입력해 주세요." />
+        <br/><br/>
+        <select>
+            <option disabled="true" selected="true">지역을 선택하세요</option>
+            <!-- 선택박스를 만들 때 디스에이블 옵션을 넣어주면 아예 선택을 못하고, 설렉티드 옵션을 넣어주면 첫 화면부터 선택이 되어있다. -->
+            <option>서울</option>
+            <option>경기</option>
+            <option>인천</option>
+        </select>
+        <br/><br/>
+        <input type="radio" name="gender" />여성
+        <input type="radio" name="gender" />남성
+        <!-- name으로 하나의 그룹임을 명시한다. 그렇게 안하면 선택이 둘 다 됨! -->
+        <br/><br/>
+        <input type="checkbox">이용약관 개인정보 수집 및 동의
+        <hr>
+        <button>가입하기</button>
+    </div>
+
+</body>
+</html>
