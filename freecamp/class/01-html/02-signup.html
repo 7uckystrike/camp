@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>회원가입</title>
+    <title>HTML - 회원가입</title>
+    <link rel="stylesheet" href="./02-signup.css">
 </head>
 <body>
     <h2>회원가입</h2>
     <div> 
-        <input type="email" placeholder="이메일을 입력해 주세요." />
+        <input type="email" placeholder="이메일을 입력해 주세요." style="border:1px solid red;" />
         <br/><br/>
         <input type="text" placeholder="이름을 입력해 주세요." />
         <br/><br/>
-        <input type="password" placeholder="비밀번호를 입력해 주세요." />
+        <input class="pw" type="password" placeholder="비밀번호를 입력해 주세요." />
         <br/><br/>
-        <input type="password" placeholder="비밀번호를 다시 입력해 주세요." />
+        <input class="pw" type="password" placeholder="비밀번호를 다시 입력해 주세요." />
         <br/><br/>
         <select>
             <option disabled="true" selected="true">지역을 선택하세요</option>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>CSS - 박스모델</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+        .pb {
+            width: 500px;
+            height: 500px;
+            border: 2px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 100px;
+        }
+
+        /* #contentBox {
+            box-sizing: content-box; //컨텐츠 영역에만 적용
+        }
+
+        #borderBox {
+            box-sizing: border-box; // 전체 영역에 적용!
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div id="contentBox">컨텐트 박스</div>
+    <div>오리지널 박스</div>
+    <div id="borderBox">보더 박스</div>  -->
+
+    <div class="pb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
