@@ -76,7 +76,7 @@ html, body {
     justify-content: space-between;
 }
 
-.textbox {
+.text_box {
     width: 130px;
     height: 24px;
     border: 1px solid #000;
@@ -98,38 +98,28 @@ html, body {
     font-weight: 700;
 }
 
-.lottobox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.number {
+.game__lotto__number {
     background-color: #ffe400;
     width: 130px;
-    height: 24px;
+    height: 21px;
     border: 1px solid #000;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 8px 3px;
-    margin-top: 12px;
+    padding: 5px 8px;
+    margin-top: 10px;
     margin-bottom: 11px;
-}
-
-.number span {
     font-size: 10px;
-    width: 700;
+    font-weight: 700;
 }
 
-.button {
-    font-size: 11px;
-    font-weight: 700;
+.game__lotto__button {
     width: 62px;
     height: 24px;
     background-color: #FFF;
     border: 1px solid #000;
     border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
 }
