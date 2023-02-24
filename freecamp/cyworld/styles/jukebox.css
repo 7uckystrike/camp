@@ -65,7 +65,7 @@ html, body {
     height: 120px;
 }
 
-.album-songtitle {
+.album-song-title {
     color:#0f4652;
     font-size: 11px;
     font-weight: bold;
@@ -124,9 +124,10 @@ html, body {
 .album-table-song {
     width: 45%;
     text-align: left;
+    padding-left: 20px;
 }
 
 .album-table-artist {
     width: 30%;
-    text-align: left;
+    text-align: center;
 }
