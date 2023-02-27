@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>FINAL PROJECT</title>
+    <link rel="stylesheet" href="./final.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>코드캠프 회원가입</h3>
+        <div class="inputbox__wrapper">
+            <input class="inputbox" id="email" placeholder="이메일을 입력해 주세요." />
+            <input class="inputbox" id="name" placeholder="이름을 입력해 주세요." />
+            <input class="inputbox" id="pw1" placeholder="비밀번호를 입력해 주세요." />
+            <input class="inputbox" id="pw2" placeholder="비밀번호를 다시 입력해 주세요." />
+        </div>
+        <div class="phone__wrapper">
+            <input id="phone1" class="phoneNum" type="text" maxlength="3" />
+            <span> - </span>
+            <input id="phone2" class="phoneNum" type="text" maxlength="4" />
+            <span> - </span>
+            <input id="phone3" class="phoneNum" type="text" maxlength="4" />
+        </div>
+        <div class="token__wrapper">
+            <div class="token" id="token">000000</div>
+            <button id="token__btn" disabled >인증번호 전송</button>
+        </div>
+        <div class="token__wrapper">
+            <div class="timer" id="timer">3:00</div>
+            <button id="timer__btn" disabled>인증 완료</button>
+        </div>
+        <div class="location__wrapper">
+            <select class="locaiton" id="location">
+                <option disabled selected>지역을 선택하세요.</option>
+                <option>서울</option>
+                <option>경기</option>
+                <option>인천</option>
+            </select>
+        </div>
+        <div class="gender__wrapper">
+            <div class="gender">
+                <input type="radio" name="gender" id="gender__woman" class="gender__radio" /> 
+                <span class="gender__woman">여성</span>
+                <input type="radio" name="gender" id="gender__man" class="gender__radio" />
+                <span>남성</span>
+            </div>
+        </div>
+        <hr />
+        <div class="footer">
+            <button id="signup__button" class="signup__button" disabled>가입하기</button>
+        </div>
+    </div>
+</body>
+</html >
