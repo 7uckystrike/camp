@@ -1,5 +1,3 @@
-
-
 function InputDate() {
     let inputYear = document.querySelector('#input-year').value
     let inputMonth = document.querySelector('#input-month').value
@@ -7,7 +5,7 @@ function InputDate() {
 
     let dateFormat = `${inputYear}-${inputMonth}-${inputDay}`
     
-    return dateFormat
+    return dateFormat //리턴값을 통해 지역변수를 전역으로 사용할 수 있게 만든다! 
 }
 
 function counterMaker() {
@@ -23,11 +21,3 @@ function counterMaker() {
     console.log(remainingData, remainingHours, remainingMin, remainingSec)
 }
 
-
-
-
-
-
-// const targetDate = new Date('2022-01-01');
-// const remaining = (targetDate - newDate) / 1000
-// const remainingData = Math.floor(remaining / 3000 /24);
