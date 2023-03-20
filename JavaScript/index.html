@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D D A Y</title>
-
     <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>D day</h1>
+  <div id="d-day-container">
+      <div class="d-day-child-container">
+        <span id="days">0</span>
+        <span>일</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="hours">0</span>
+        <span>시간</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="min">0</span>
+        <span>분</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="sec">0</span>
+        <span>초</span>
+      </div>
+  </div>
+  <div id="target-selector">
     <div>
-        <input type="text" id="input-year"/>
-        <input type="text" id="input-month"/>
-        <input type="text" id="input-day"/>
-        <button type="submit" onclick="counterMaker()">확인</button>
+      <input type="text" id="input-year" size="5"/>
+      <input type="text" id="input-month" size="5"/>
+      <input type="text" id="input-day" size="5"/>
     </div>
+    <button type="submit" onclick="counterMaker()" id="start-btn">카운트다운 시작!</button>
+  </div>
 </body>
 </html>

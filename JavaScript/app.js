@@ -3,7 +3,7 @@ function InputDate() {
     let inputMonth = document.querySelector('#input-month').value
     let inputDay = document.querySelector('#input-day').value
 
-    let dateFormat = `${inputYear}-${inputMonth}-${inputDay}`
+    let dateFormat = `${inputYear} ${inputMonth} ${inputDay}`
     
     return dateFormat //리턴값을 통해 지역변수를 전역으로 사용할 수 있게 만든다! 
 }
