@@ -20,7 +20,6 @@ function counterMaker() {
         console.log('유효한 시간대가 아닙니다.')
       }
 
-    
     const remainingData = Math.floor(remaining / 3600 / 24)
     const remainingHours = Math.floor(remaining / 3600) % 24
     const remainingMin = Math.floor(remaining / 60) % 60
