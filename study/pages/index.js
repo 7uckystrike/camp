@@ -13,6 +13,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
+          <label>안녕</label>
+          <input type="text" />
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
